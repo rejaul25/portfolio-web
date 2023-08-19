@@ -1,0 +1,1201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Universal css in the below */
+.head-color {
+    transition: all 0.5s;
+    background-color: #fff;
+
+}
+
+
+.col-85-per {
+    width: 85%;
+    height: auto;
+    margin: auto;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-spbt {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.justify-con {
+    justify-content: center;
+}
+
+.all-cata-head {
+    padding: 108px 0px 10px 0px;
+}
+
+.all-cata-head {
+    display: flex;
+    justify-content: center;
+}
+
+.cata-name-con {
+    width: fit-content;
+    height: fit-content;
+    background-color: #eee8aa !important;
+    margin: auto;
+
+}
+
+.cata-name-con p {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #212529;
+    padding: 0px 8px;
+
+}
+
+.cata-explain h2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #212529;
+    padding: 10px 0px;
+
+}
+
+
+.my-skills-cata-img i {
+    color: #eee8aa;
+}
+
+.hr-mg {
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+
+.border-none {
+    border: none;
+}
+
+
+.col-65-per {
+    width: 65%;
+    height: auto;
+    margin: auto;
+    background-color: lavenderblush;
+}
+
+/* Universal css in the below */
+
+/* menubar-area */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+.container {
+    padding: 18px;
+
+}
+
+
+.logo-name a h2 {
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.menubar-r span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: black;
+
+}
+
+/* menubar-area */
+
+/* my-port-introduction */
+
+.header-and-intro-part {
+    width: 100%;
+    background-color: #f1c40f;
+}
+
+.my-port-intro {
+    width: 100%;
+    height: 650px;
+    display: inline-block;
+    padding: 95px 15px;
+
+}
+
+.my-intro-con h1 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 300;
+    color: #212529;
+    text-transform: uppercase;
+
+}
+
+.dynamic-text-con {
+    width: 500px;
+
+}
+
+.dynamic-text-con span {
+    font-size: 104px;
+    line-height: 134px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #212529;
+
+}
+
+.based-in-con p {
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 400;
+    padding: 10px 0px;
+    color: #212529;
+
+}
+
+.view-button button {
+    width: 220px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    background-color: #212529;
+
+}
+
+.contact-me-con {
+    width: 250px;
+}
+
+.contact-me-con a {
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #212529;
+
+}
+
+.dev-img-port {
+    width: 450px;
+
+}
+
+.dev-img img {
+    width: 450px;
+    border: 15px solid #ffff;
+    border-radius: 50%;
+
+}
+
+/* my-port-introduction */
+
+/* about-me-text-and-exp */
+.about-text-and-exp {
+    padding: 20px 0px 0px 0px;
+    /* background-color: gray; */
+}
+
+.about-me-text {
+    width: 70%;
+    /* background-color: lightblue; */
+}
+
+.about-me-exp {
+    width: 30%;
+    height: auto;
+    /* background-color: gainsboro; */
+
+}
+
+.about-text-head h2 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #212529;
+
+
+}
+
+.about-text-head span {
+    display: inline-block;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #212529;
+    border-bottom: 3px solid #eee8aa;
+
+
+}
+
+.discribe-me-text p {
+    width: 95%;
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #212529;
+    padding: 15px 0px;
+
+}
+
+
+.about-exp-year {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-color: #eee8aa;
+    margin: auto;
+    padding: 5px;
+
+
+
+
+}
+
+.about-exp-num-year h1 {
+
+
+    text-align: center;
+    font-size: 144px;
+    line-height: 187px;
+    font-weight: 500;
+    color: #4c4d4d;
+
+
+
+}
+
+.about-exp-con h2 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 500;
+    color: #212529;
+    padding: 25px 0px;
+
+}
+
+.about-exp-con span {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #212529;
+
+}
+
+/* about-me-text-and-exp */
+
+/* This short bio area */
+
+.about-name-con {
+    max-width: 350px;
+    width: 50%;
+    display: block;
+    padding: 50px 0px 0px 0px;
+
+}
+
+.about-bio-1 {
+    width: 48%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-bio-2 {
+    width: 48%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about-name p {
+
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #8e9a9d;
+
+}
+
+.about-full-name p {
+
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #212529;
+
+}
+
+.about-full-name a:hover {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+/* This short bio area */
+
+/* my-all-skills-area */
+
+.my-all-skills {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    margin-top: 110px;
+    display: block;
+
+}
+
+.my-skills-top {
+    padding: 80px 0px 0px 0px;
+}
+
+.my-skills-down {
+    padding: 60px 0px 110px 0px;
+}
+
+.my-skills-cata-head h3 {
+    text-align: center;
+    display: block;
+    padding: 25px 0px 10px 0px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #212529;
+
+
+}
+
+.my-skills-cata-con p {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #8e9a9d;
+
+}
+
+.my-skills-cata-all-con {
+    width: 30%;
+    height: auto;
+    /* background-color: lightblue; */
+}
+
+/* my-all-skills-area */
+
+/* A summary of My Resume */
+.my-summary-lr-both {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    /* background-color: lightgray; */
+}
+
+.my-summary-l {
+    width: 47%;
+    height: auto;
+    /* background-color: lightslategray; */
+}
+
+.my-summary-r {
+    width: 47%;
+    height: auto;
+    /* background-color: lightslategray; */
+}
+
+.short-summary-list {
+    margin-top: 28px;
+    border-left: 2px solid #eee8aa;
+}
+
+.summary-con {
+    width: 93%;
+    height: auto;
+    margin: auto;
+
+
+}
+
+.summary-head h2 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #212529;
+
+}
+
+.summary-con h3 {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.ind-or-inst-name p {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #212529;
+    padding: 5px 0px;
+}
+
+.summary-con p {
+
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #8e9a9d;
+
+
+}
+
+
+
+
+/* A summary of My Resume */
+
+/* my-skills-catagory */
+.my-skills {
+
+    padding-top: 50px;
+}
+
+.my-skills-head h2 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.all-design-head {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.my-skills-item-both {
+    width: 100%;
+    height: auto;
+    /* background-color: lightskyblue; */
+}
+
+.my-skills-l {
+    width: 49%;
+    height: auto;
+    /* background-color: lightgrey; */
+}
+
+.my-skills-r {
+    width: 49%;
+    height: auto;
+    /* background-color: lightpink; */
+}
+
+.pd-tp {
+    padding: 10px 0px;
+}
+
+.pd-tb-25 {
+    padding: 8px 0px;
+}
+
+
+.all-per-con {
+    width: 100%;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+}
+
+.active {
+    height: 8px;
+    border-radius: 10px;
+    background-color: #eee8aa;
+}
+
+.web-per-active {
+    width: 65%;
+
+}
+
+.script-per-active {
+    width: 80%;
+}
+
+.angjs-per-active {
+    width: 60%;
+}
+
+.html-css-per-active {
+    width: 95%;
+}
+
+.reactjs-per-active {
+    width: 70%;
+}
+
+.bootstrap-per-active {
+    width: 99%;
+}
+
+.downlode-cv-btn {
+    text-align: center;
+    display: block;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.down-cv-btn-con button {
+
+    width: 200px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    border-width: 2px;
+    background: #fff;
+
+}
+
+.down-cv-btn-con button:hover {
+    background-color: black;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+/* my-skills-catagory */
+
+
+/* my-portfolio */
+
+.my-portfolio {
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #f2f2f2;
+}
+
+.active {
+    color: #000000 !important;
+
+}
+
+.border-bottom {
+    border-bottom: 3px solid #eee8aa !important;
+}
+
+.my-portfolio-menu-item {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.menu-items {
+    padding: 30px 0px;
+}
+
+.menu-items li {
+    padding: 8px 15px;
+
+}
+
+.menu-items li .menu-btn {
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    background: transparent;
+    color: rgba(0, 0, 0, .4);
+
+}
+
+.menu-items li .menu-btn:hover {
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+/* ......... */
+
+.portfolio-demo-items {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.port-demo-card-main {
+    width: 100%;
+    height: auto;
+    padding: 12px 1px;
+    /* background-color: green; */
+}
+
+.port-demo-card {
+    position: relative;
+
+}
+
+
+.port-demo-img-con {
+    width: 365px;
+    height: 380px;
+
+    /* background-color: khaki; */
+}
+
+.port-demo-img-con img {
+    width: 365px;
+    height: 380px;
+    object-fit: cover;
+
+}
+
+.port-demo-card .port-demo-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 365px;
+    height: 380px;
+    opacity: .7;
+    visibility: hidden;
+    flex-direction: column;
+    background-color: black;
+}
+
+.port-demo-card:hover .port-demo-text {
+    visibility: visible;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.port-demo-text i {
+    color: #eee8aa;
+    padding-bottom: 20px;
+}
+
+.port-demo-text h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    padding: 8px 0px;
+}
+
+.port-demo-text span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+/* my-portfolio */
+
+/* Working-with-me */
+.work-with-me-main {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.work-with-me-img {
+    width: 100%;
+    height: 450px;
+}
+
+.work-with-me-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.work-with-me-text {
+    width: 100%;
+    height: 450px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    flex-direction: column;
+    background: #000000;
+    opacity: .8;
+}
+
+.work-with-me-text h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 50px 0px;
+
+}
+
+.work-with-me-text a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 15px 48px;
+    color: black;
+    background-color: #f5eb81;
+}
+
+.work-with-me-text a:hover {
+    cursor: pointer;
+    background-color: #f7eb69;
+}
+
+/* Working-with-me */
+
+/* faq-section */
+.faq-section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 120px;
+
+
+}
+
+.faq-head p span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212529;
+    padding: 3px 8px;
+    background-color: #eee8aa;
+}
+
+.faq-head h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #212529;
+    padding: 15px 0px;
+}
+
+.faq-lr-both {
+    width: 100%;
+    height: 650px;
+    /* padding-top: 98px; */
+
+    /* background-color: lightpink; */
+}
+
+.faq-det-items {
+    padding: 30px 0px;
+}
+
+.faq-det-items-con {
+    padding: 15px 0px;
+    border-bottom: 0.01px solid rgba(0, 0, 0, 0.4);
+}
+
+.faq-l-side {
+    width: 50%;
+    height: auto;
+    overflow: -moz-hidden-unscrollable;
+    /* background-color: lightcoral; */
+}
+
+.faq-r-side {
+    width: 50%;
+    height: auto;
+    /* background-color: khaki; */
+}
+
+.faq-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faq-btn button {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #212529;
+    padding: 0px 8px;
+    cursor: pointer;
+
+
+}
+
+.faq-drop {
+    width: 100%;
+    height: auto;
+
+}
+
+.faq-btn h2 button {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.faq-drop {
+    display: none;
+}
+
+.faq-drop p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #212529;
+    padding: 20px 25px;
+
+}
+
+.faq-drop.active {
+    display: block;
+}
+
+
+/* faq-section */
+
+
+/* Clients speak zone */
+
+.clients-speak-container {
+    width: 100%;
+    height: 550px;
+    background-color: lightskyblue;
+}
+
+
+
+/* Clients speak zone */
+
+
+/* get in touch are */
+.get-in-touch-container {
+    padding-bottom: 20px;
+    background-color: #eee8aa !important;
+}
+
+.get-touch-form {
+    padding-top: 35px;
+}
+
+.get-in-touch-both {
+    width: 100%;
+    height: auto;
+
+}
+
+.get-in-touch-l {
+    width: 50%;
+    height: auto;
+    padding: 110px 0px;
+    /* background-color: lightgreen; */
+}
+
+.head-style-con h2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.get-in-touch-m-text-con p {
+    width: 80%;
+    font-size: 21px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #212529;
+    padding: 70px 0px;
+}
+
+.sub-head h2 {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.sub-head-add {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #212529;
+    padding: 8px 0px;
+}
+
+.social-meida-handle,
+i {
+    padding: 30px 8px 0px 0px;
+    color: #8e9a9d;
+    cursor: pointer;
+}
+
+.get-in-touch-r {
+    width: 50%;
+    height: auto;
+    padding: 110px 0px;
+    /* background-color: lightslategray; */
+}
+
+.your-name,
+.email.addr,
+.how-can-help label {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212529;
+    padding-bottom: 10px;
+}
+
+.col-12 {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    /* background-color: red; */
+}
+
+.col-12 input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, .12);
+    outline: none;
+    padding: .81rem 0rem;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.col-12 textarea {
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, .12);
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.send-button {
+    padding-top: 3px;
+}
+
+.send-button a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 16px 48px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.send-button a:hover {
+    transition: all 0.5s ease;
+    background-color: #363434;
+}
+
+/* get in touch are */
+/* website-footer-area -start  */
+.footer-main-container {
+    background-color: #000000;
+    padding: 65px 0px;
+    color: #fff;
+}
+
+.footer-a-style {
+    color: #eee8aa;
+    text-decoration: underline;
+}
+
+.footer-a-style:hover {
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+/* website-footer-area -end  */
+
+
+@media only screen and (min-width: 250px) and (max-width: 450px) {
+
+    header {
+        display: none;
+    }
+
+    .header-and-intro-part{
+        width: 100%;
+    }
+    .menubar-r {
+        display: none;
+    }
+
+    .intro-part-l {
+        width: 80%;
+    }
+
+    .dynamic-text-con span {
+        font-size: 60px;
+    }
+
+    .view-button button {
+        width: 150px;
+        padding: 10px;
+    }
+
+    .contact-me {
+        margin-top: -30px;
+        margin-left: 15px;
+    }
+
+    .part-of-port-intro {
+        display: block;
+    }
+
+    .dev-img img {
+        width: 350px;
+        border: 12px solid #ffff;
+        border-radius: 50%;
+        margin-top: 35px;
+
+    }
+
+    /* ................. */
+    .about-text-and-exp {
+        display: block;
+    }
+
+    .about-me-text {
+        width: 100%;
+    }
+
+    .about-me-exp {
+        width: 100%;
+    }
+
+    .about-short-bio-con {
+        display: block;
+        width: 100%;
+    }
+
+    .about-bio-1 {
+        width: 100%;
+    }
+
+    .about-bio-2 {
+        width: 100%;
+    }
+
+    /* ................... */
+    .my-skills-catagory {
+        display: block;
+    }
+
+    .my-skills-cata-all-con {
+        width: 100%;
+    }
+
+    /* portfolio-area-content */
+    .menu-items li .menu-btn {
+        font-size: 6px;
+    }
+
+    .port-demo-card-main {
+        display: block;
+    }
+
+    .port-demo-img-con {
+        width: 100%;
+    }
+
+    .port-demo-card {
+        margin-top: 30px;
+    }
+
+    /* faq-section-media-quary */
+    .faq-lr-both {
+        display: block;
+        padding-bottom: 650px;
+        margin-top: 45px;
+    }
+
+    .faq-l-side {
+        width: 100%;
+
+    }
+
+    .faq-r-side {
+        display: none;
+    }
+
+    /* Get in touch both */
+    .get-in-touch-both {
+        display: block;
+    }
+
+    .get-in-touch-l {
+        width: 100%;
+    }
+
+    .get-in-touch-r {
+        width: 100%;
+    }
+
+    /* my-summary-both */
+    .my-summary-lr-both {
+        display: block;
+    }
+
+    .my-summary-l {
+        width: 100%;
+    }
+
+    .my-summary-r {
+        width: 100%;
+    }
+  .work-with-me-text h1{
+    font-size: 25px;
+  }
+}
